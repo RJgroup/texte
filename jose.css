@@ -56,7 +56,7 @@ a:visited{
 }
 /*Main*/
 main{
-    margin-bottom: 150px;
+    height: 900px;
 }
 .absolute{
     border-radius: 10px;
@@ -67,6 +67,7 @@ main{
     left: 50%;
     overflow: hidden;
     border: 1px solid black;
+    margin-bottom: 30px;
    
     
     
@@ -104,12 +105,14 @@ input:hover{
 section{
     
     position: relative;
+    background-color: aliceblue;
    
     
     width: 500px;
     height: 550px;
     padding: 20px;
     transition: .6s;
+    
    
 }
 .item{
@@ -132,21 +135,12 @@ p{
     text-align: justify;
     text-indent: 20px;
     margin: 5px;
-}/* animations
-@keyframes identifier {
+}
+@keyframes abrir {
     from{
-        background-image: linear-gradient(to right, #042940 50%, #005C53);
+        opacity: 0;
     }
     to{
-        background-image: linear-gradient(to right, #F27C38 50%, #F2A97E );
-        transition: 5s;
+        opacity: 100%;
     }
 }
-@keyframes section01 {
-        from{top: 250px; left: 1% ;}
-        to{top: 250px; left: 35%;}
-}
-@keyframes section02 {
-    from{top: 250px; left: 35% ;}
-    to{top: 250px; left: 1%;}
-}*/

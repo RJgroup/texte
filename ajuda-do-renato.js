@@ -5,24 +5,24 @@ let s= document.getElementById('s')
 button1.addEventListener("click", funçao1)
 button2.addEventListener("click", funçao2)
 button3.addEventListener("click", funçao3)
+let item1= document.getElementById("item1")
+let item2= document.getElementById("item2")
+let item3= document.getElementById("item3")
+
 
 function funçao1(){
     s.style.marginLeft='0'
+    item1.style.animationName='abrir'
+    item1.style.animationDelay='2s'
 }
 function funçao2(){
     s.style.marginLeft='-550px'
+    item2.style.animationName='abrir'
+    item2.style.animationDelay='2s'
 }
 function funçao3(){
+
     s.style.marginLeft='-1080px'
+    item3.style.animationName='abrir'
+    item3.style.animationDelay='2s'
 }
-
-
-
-
-
-
-    
-   
-
-
-    
