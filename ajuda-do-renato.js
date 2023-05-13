@@ -10,10 +10,10 @@ function funçao1(){
     s.style.marginLeft='0'
 }
 function funçao2(){
-    s.style.marginLeft='-33%'
+    s.style.marginLeft='-550px'
 }
 function funçao3(){
-    s.style.marginLeft='-66%'
+    s.style.marginLeft='-1080px'
 }
 
 
