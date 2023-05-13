@@ -24,7 +24,7 @@ nav{
     
     border-radius: 0px 0px 10px 10px ;
     
-    color: ;
+    
     
     
     
@@ -56,12 +56,19 @@ a:visited{
 }
 /*Main*/
 main{
-    margin-bottom: 150px;
+    height: 900px;
 }
 .absolute{
+    border-radius: 10px;
     position: absolute;
-    width: 100vw;
+    width: 542px;
+    transform: translate(-50%,-50%);
+    top: 65%;
+    left: 50%;
     overflow: hidden;
+    border: 1px solid black;
+    margin-bottom: 30px;
+   
     
     
 }
@@ -71,7 +78,7 @@ main{
     transform: translate(-50%);
     left: 50%;
 }
-button{
+input{
     width: 50px;
     height: 20px;
     
@@ -81,7 +88,7 @@ button{
     border-radius: 10px;
 
 }
-button:hover{
+input:hover{
     background-color: white;
 }
 .caixa{
@@ -92,16 +99,25 @@ button:hover{
     
     
     
+    
 
 }
 section{
+    
     position: relative;
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 100%;
+    background-color: aliceblue;
+   
+    
+    width: 500px;
+    height: 550px;
     padding: 20px;
     transition: .6s;
+    
    
+}
+.item{
+    width: 500px;
+    height: 550px;
 }
 
 h1{
@@ -119,21 +135,12 @@ p{
     text-align: justify;
     text-indent: 20px;
     margin: 5px;
-}/* animations
-@keyframes identifier {
+}
+@keyframes abrir {
     from{
-        background-image: linear-gradient(to right, #042940 50%, #005C53);
+        opacity: 0;
     }
     to{
-        background-image: linear-gradient(to right, #F27C38 50%, #F2A97E );
-        transition: 5s;
+        opacity: 100%;
     }
 }
-@keyframes section01 {
-        from{top: 250px; left: 1% ;}
-        to{top: 250px; left: 35%;}
-}
-@keyframes section02 {
-    from{top: 250px; left: 35% ;}
-    to{top: 250px; left: 1%;}
-}*/
