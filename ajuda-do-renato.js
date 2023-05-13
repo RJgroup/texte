@@ -5,9 +5,9 @@ let s= document.getElementById('s')
 button1.addEventListener("click", funçao1)
 button2.addEventListener("click", funçao2)
 button3.addEventListener("click", funçao3)
-let item1= document.getElementById("item1")
-let item2= document.getElementById("item2")
-let item3= document.getElementById("item3")
+let item1= document.getElementById("s")
+let item2= document.getElementById("ss")
+let item3= document.getElementById("sss")
 
 
 function funçao1(){
