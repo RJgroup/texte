@@ -1,2 +1,2 @@
-# texte
-loikujnyhbtgvrfcd
+# teste
+full friends or full stacks
