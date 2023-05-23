@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'spider-man';
+    src: url('fontes/SPIDER-MAN\ ECLIPSE.ttf') format('truetype'), url('fontes/SPIDER-MAN\ ECLIPSE.otf') format('opentype');
+}
+@font-face {
+    font-family: 'HOMOARAK';
+    src: url('fontes/HOMOARAK.TTF') format('truetype'), url('fontes/HOMOARAK.otf') format('opentype');
+}
+:root{
+    --corPrincipal: #DC1200;
+    --corSecundaria: #1534FF;
+    --corTercearia: #EA8A00;
+    --corneutra1: #202124;
+    --corneutra2: #F1F3F4;
+    --font1: 'spider-man', Arial Rounded MT Bold, sans-serif;
+    --font2: 'HOMOARAK', Copperplate Gothic Bold, serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header>img{
+    position: absolute;
+    top: -10px;
+    left: 130px;
+    transform: translateX(-50%);
+}
+main{
+    position: relative;
+}
+nav{
+    position: relative;
+    width: auto;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, var(--corneutra1) 90%, var(--corPrincipal) 10%);
+    font-family: 'spider-man';
+    font-weight: 900;
+    font-size: 1.1em;
+    border-radius: 0 0 5px 5px;
+}
+ul{
+    list-style: none;
+    position: absolute;
+    left: 300px;
+    bottom: 0;
+    padding-bottom: 5px;
+}
+li{
+    display: inline;
+    padding-left: 20px;
+}
+a{
+    color: #000083;
+    text-decoration: none;
+}
+a:hover{
+    color: #3838ff;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+a:visited{
+    color: rgb(2, 2, 145);
+}
+a:active{
+    color: var(--corPrincipal);
+}
