@@ -1,0 +1,265 @@
+/* pagina de cursos*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --cor1:rgba(255, 255, 0, 0.772);
+    --cor2:rgb(255, 0, 0);
+    --cor3:rgb(43, 46, 248);
+}
+.imageCover{
+    box-shadow: inset 0px 3px 10px rgba(0, 0, 0, 0.622);
+    background-color: aqua;
+    color:var(--cor2) ;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+    line-height: 3em;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    transition: 1s;
+    transform: translateX(-100%);
+    animation-name: abrir;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.imageCover>.image{
+    box-shadow: inset 0px 3px 10px rgba(0, 0, 0, 0.622);
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    background-image: url('../imagens/estudando3.avif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+@keyframes abrir {
+    to{
+        transform: translateX(0%);
+    }
+}
+
+div.iframe{
+    position: relative;
+    background-color: blue;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 100%;
+}
+iframe{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.introducao{
+    max-width: 800px;
+    margin:auto;
+    font-size:1.3em ;
+    text-indent: 20px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.628) ;
+    background-color: rgb(203, 203, 203);
+    padding: 20px;
+    text-shadow: .5px .5px 2px rgba(0, 0, 0, 0.453);
+    letter-spacing: .01em;
+    line-height: 1.2em;
+    font-weight: lighter;
+}
+.introducao>p>strong{
+    color: var(--cor2);
+    font-size: 1.5em;
+}
+/* pagina de cursos*/
+div.cursos
+{
+    background-color:   rgba(255, 255, 85, 0.339);
+    background-image: url('../imagens/fundo-cursos.png');
+    background-position: center center;
+    background-size:60px 60px ;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 30px;
+    box-shadow: inset 1px 1px 10px rgba(255, 255, 255, 0.57);
+    
+   
+}
+div.cursos>ul
+{
+    list-style: none;
+    transform: skewY(-2deg);
+    gap: 20px;
+    
+}
+
+div.cursos>ul>li
+{
+    padding: 5px;
+    background-color: var(--cor3);
+    margin: 20px;
+    height: 50vh;
+    width: 60vw;
+    text-align: center;
+    transition: 0.5s, box-shadow 1.5s ;
+   position: relative;
+    box-shadow: px 0px black;
+}
+div.cursos>ul>li:hover
+{
+    background-color: var(--cor1);
+    transform: translateX(25%);
+    border-right: .5px solid black;
+    border-bottom: .5px solid black;
+    transition-delay: 0s,0.5s;
+   
+}
+div.cursos>ul>li>a
+{
+    text-decoration: none;
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: .5s;
+    transition-delay: .3s;
+}
+div.cursos>ul>li:hover>a
+{
+    color: var(--cor3);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    
+}
+div.cursos>ul>li::after
+{
+    position: absolute;
+    content: '';
+    background-color: rgb(99, 99, 254);
+    height: 100%;
+    width: 10px;
+    left: -10px;
+    top: 0px;
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: .5s;
+    transition-delay: .1s;
+
+}
+div.cursos>ul>li:hover::after
+{
+    background-color:rgb(255, 255, 110);
+    border-left: .5px solid black;
+    border-bottom: .5px solid black;
+
+}
+div.cursos>ul>li::before
+{
+    position: absolute;
+    content: '';
+    background-color: rgb(2, 2, 192);
+    height: 10px;
+    width: 100%;
+    left: 0;
+    top: -10px;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: .5s;
+    transition-delay: .2s;
+}
+div.cursos>ul>li:hover::before
+{
+    background-color:rgb(174, 174, 1);
+    border-right: .5px solid black;
+    border-top: .5px solid black;
+    
+}
+div.img{
+    height: 80%;
+    background-color: black;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+}
+.um{
+    background-image: url('../imagens/ciencia\ fisicas\ e\ biologicas.jpg');
+}
+.dois{
+    background-image: url('../imagens/ciencias\ econimicas\ e\ juridicas.jpg');
+}
+.tres{
+    background-image: url('../imagens/tecnico\ desenhador\ e\ projectista.jpg');
+}
+.quatro{
+    background-image: url('../imagens/financas.jpg');
+}
+.cinco{
+    background-image: url('../imagens/tecnico\ de\ informatica.jpeg');
+}
+.seis{
+    background-image: url('../imagens/Recursos-Humanos.jpg');
+}
+/* pagina-matricula */
+.Tground{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+}
+table{
+    width: 800px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    transition: .5s;
+}
+tr{
+    margin: 0;
+}
+td{
+    background-color: rgba(255, 255, 0, 0.792);
+    margin: 0;
+    padding: 20px;
+    font-size: 1.1em;
+}
+.im{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    color: var(--cor2);
+    background-color: rgba(0, 0, 255, 0.624)
+}
+.dm{
+    background-color:rgb(219, 219, 0) ;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+}
+.F_P{
+    background-color: rgba(255, 255, 255, 0.756);
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: .5px .5px 5px rgba(0, 0, 0, 0.449);
+    border-radius: 5px;
+    transform: translateX(-20%);
+}
+.F_P>h1{
+    color: rgb(210, 24, 24);
+    margin: 10px;
+    letter-spacing: .015em;
+}
+.F_P>p>span.mark{
+    font-weight: bold;
+    font-size: 1.3em;
+}

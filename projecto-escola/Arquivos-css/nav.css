@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --cor1:rgba(255, 255, 0, 0.772);
+    --cor2:rgb(255, 0, 0);
+    --cor3:rgb(43, 46, 248);
+}
+nav{
+    background-color: var(--cor3);
+    position: sticky;
+    text-align: center;
+    top: 0;
+    z-index: 2;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.511);
+    
+    
+}
+nav>ul{
+    list-style: none;
+    
+    
+    
+}
+nav>ul>li {
+    border-left: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    transition: 0.5s;
+    
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.621);
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.5s;
+   
+   
+}
+nav>ul>li.fim{
+    border-right: 2px solid black;
+}
+nav>ul>li:hover{
+    background-color: var(--cor1);
+    border: none;
+    
+
+    
+}
+nav>ul>li:hover> a{
+    color: var(--cor3);
+    letter-spacing: 0.3em;
+}
+ul>li>ul{
+    position: absolute;
+    margin-top: 20px;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    text-align: left;
+    transition: 0.5s;
+    list-style: none;
+    z-index: 2;
+    
+}
+ul>li>ul>li{
+    list-style: none;
+    background-color: rgba(201, 201, 98, 0.679);
+    color: var(--cor3);
+    margin-left: -20px;
+    padding: 20px;
+    border-bottom:2px solid black;
+    font-weight: bolder;
+    transition: 0.5s;
+    transform: translatex(-500px);
+    transition-delay: calc(0.1s * var(--R));
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.448);
+    text-transform: uppercase;
+    z-index: 2;
+    
+    
+}
+ul>li>ul>li>a{
+    color: var(--cor3);
+    text-decoration: none;
+    transition: .5s;
+}
+ul>li>ul>li:hover{
+    background-color: rgba(79, 79, 249, 0.697);
+    color:rgb(255, 255, 255) ;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    letter-spacing: .1em;
+}
+ul>li>ul>li:hover>a{
+    color:rgb(255, 255, 255) 
+    
+}
+ul>li>ul>li>a:hover{
+    
+}
+ul>li:hover>ul>li{
+    transform: translatex(0px);
+}
+ul>li:hover>ul{
+
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+    
+    
+}
+@keyframes texte {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
