@@ -9,10 +9,10 @@
     src: url('fontes/HOMOARAK.TTF') format('truetype'), url('fontes/HOMOARAK.otf') format('opentype');
 }
 :root{
-    --corPrincipal: #DC1200;
-    --corSecundaria: #1534FF;
+    --corPrincipal: #dc1200e4;
+    --corSecundaria: #1534ff96;
     --corTercearia: #EA8A00;
-    --corneutra1: #202124;
+    --corneutra1: #202124c7;
     --corneutra2: #F1F3F4;
     --font1: 'spider-man', Arial Rounded MT Bold, sans-serif;
     --font2: 'HOMOARAK', Copperplate Gothic Bold, serif;
