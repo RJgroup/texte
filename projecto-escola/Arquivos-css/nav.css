@@ -59,16 +59,14 @@ ul>li>ul{
     position: absolute;
     margin-top: 20px;
     flex-direction: column;
-    display: flex;
+    visibility: hidden;
     opacity: 0;
     text-align: left;
     transition: 0.5s;
     list-style: none;
     z-index: 2;
-    
 }
 ul>li>ul>li{
-    
     list-style: none;
     background-color: rgba(201, 201, 98, 0.679);
     color: var(--cor3);
@@ -82,8 +80,6 @@ ul>li>ul>li{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.448);
     text-transform: uppercase;
     z-index: 2;
-    
-    
 }
 ul>li>ul>li>a{
     color: var(--cor3);
@@ -99,21 +95,19 @@ ul>li>ul>li:hover{
 }
 ul>li>ul>li:hover>a{
     color:rgb(255, 255, 255) 
-    
 }
 ul>li>ul>li>a:hover{
     
 }
 ul>li:hover>ul>li{
-    transform: translateX(0px);
-    display: block;
+    transform: translatex(0px);
+    
 }
 ul>li:hover>ul{
+
     display: flex;
-    
     visibility: visible;
     opacity: 1;
-
     
     
 }

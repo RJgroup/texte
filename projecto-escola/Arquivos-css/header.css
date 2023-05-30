@@ -10,8 +10,8 @@
     --cor3:rgb(43, 46, 248);
 }
 body{
-    background-color:   rgba(255, 255, 0, 0.505);
-    background-image: url('../imagens/fundo-cursos.png');
+    background-color:   rgba(255, 255, 0, 0);
+    
     background-position: center center;
     background-size:60px 60px ;
     background-repeat: repeat;
@@ -20,7 +20,7 @@ body{
 header{
     background-image: url('../imagens/estudando.jpg.webp');
     background-color: black;
-    height: 70vh;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -28,14 +28,15 @@ header{
     transition: 2s;
     position: relative;
     padding-top: 50px;
-    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.476);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.361);
     
 }
 div.logotipo{
     margin: 20px 0px 0px 20px;
     background-color:var(--cor1) ;
     padding: 10px;
-    width:35% ;
+    
+    width:30% ;
     text-align: center;
     border-radius: 5px;
     box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.533);
@@ -66,8 +67,6 @@ div.frases>img{
    height: 50px; 
 }
 div.texto{
-   
-    
     transition: .5s;
     position: absolute;
     left: 100%;
