@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My second test</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div.boss{
+            margin-left: 50px;
+        }
+        div.in{
+            width: 200px;
+            height: 100px;
+            background-color: rgba(255, 0, 0, 0.65);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            line-height: 100px;
+            /* margin: 100px 0 100px;
+            line-height: 100px;
+            text-align: center; */
+        }
+        div.out{
+            width: 300px;
+            height: 300px;
+            background-color: rgba(0, 0, 255, 0.641);
+            display: flex;
+            justify-content: center;
+            position: relative;
+            /* margin-bottom: 20px; */
+        }
+        div.int{
+            width: 100px;
+            height: 50px;
+            background-color: orange;
+            position: relative;
+            top: 10%;
+            left: -90%;
+            padding: 5px;
+        }
+        /* .out:hover .in{
+            width: 200px;
+            height: 100px;
+            background-color: rgb(170, 255, 0);
+        } */
+        .out:hover .int{
+            position: relative;
+            width: 100px;
+            height: 50px;
+            background-color: orangered;
+            top: 10%;
+            left: 0;
+            transition: .5s;
+        }
+        .out:hover .int{
+            position: relative;
+            width: auto;
+            height: 50px;
+            background-color: orangered;
+            top: 10%;
+            left: 0;
+            transition: .5s;
+            padding: 5px;
+        }
+        .out:hover .int::before{
+            content: '&#x1F913 meu bacana e etc';
+            width: auto;
+            line-height: 50px;
+            display: flex;
+            justify-content: center;
+        }
+        .f{
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            animation-name: fixe;
+            animation-duration: 10s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fixe {
+            0%{
+                position: absolute;
+                top: 20%;
+                left: 20%;
+            }
+            20%{
+                position: absolute;
+                top: 20%;
+                left: 50%;
+            }
+            40%{
+                position: absolute;
+                top: 40%;
+                left: 50%;
+            }
+            60%{
+                position: absolute;
+                top: 40%;
+                left: 60%;
+            }
+            80%{
+                position: absolute;
+                top: 60%;
+                left: 60%;
+            }
+            100%{
+                position: absolute;
+                top: 60%;
+                left: 70%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="boss">
+        <div class="out">
+            <!-- <div class="in">toca</div> -->
+            <div class="int"></div>
+        </div>
+    </div>
+    <div style="background-color: aqua; width: 100px; height: 100px;" class="f"></div>
+    <div style="background-color: rgba(255, 0, 106, 0.803); width: 100px; height: 100px;" class="s"></div>
+</body>
+</html>

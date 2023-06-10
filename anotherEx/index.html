@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My test</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            background-color: blue;
+            padding-top: 5px;
+            width: auto;
+        }
+        div>picture>img{
+            width: auto;
+            height: auto;
+            animation-name: spider;
+            animation-duration: 2s;
+            transition: 0.5s;
+            position: relative;
+            top: 20%;
+            left: -70%;
+            transform: translateY(5%);
+            animation-fill-mode: forwards;
+            border-radius: 2px;
+        }
+        nav>div{
+            background-color: yellow;
+            width: auto;
+            height: auto;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+            font: normal bold 16px/30px arial, sans-serif;
+            padding: 0 10px;
+            
+        }
+        @keyframes spider{
+            to{
+                position: relative;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, 5%);
+                width: auto;
+                height: auto;
+                
+            }
+        }
+        /* Usando o hover */
+        nav>div:hover{
+            background-color: red;
+            transition: 1s;
+            letter-spacing: 2px;
+            width: auto;
+        }
+        /* video{
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 135%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        } */
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div onmouseenter="x()" id="one" title="1">every moment</div>
+        <div onmouseenter="y()" id="two" title="2">do your life ok meu</div>
+        <div onmouseenter="z()" id="three" title="3" translate="no">my house</div>
+    </nav>
+    <div>
+        <picture>
+            <source media="(max-width: 700px)" srcset="../homem-aranha-site/imagens-transform/4k-miles-morales-no-350x197.jpeg" type="image/jpeg">
+
+            <source media="(max-width: 850px)" srcset="../homem-aranha-site/imagens-transform/4k-miles-morales-no-500x281.jpeg" type="image/jpeg">
+
+            <source media="(max-width: 1000px)"srcset="../homem-aranha-site/imagens-transform/4k-miles-morales-no-650x365.jpeg" type="image/jpeg">
+
+            <source media="(max-width: 1150px)" srcset="../homem-aranha-site/imagens-transform/4k-miles-morales-no-800x449.jpeg" type="image/jpeg">
+
+            <source media="(max-width: 1200px)" srcset="../homem-aranha-site/imagens-transform/4k-miles-morales-no-950x534.jpeg" type="image/jpeg">
+
+            <img src="../homem-aranha-site/imagens-transform/4k-miles-morales-no-1000x562.jpeg" alt="miles-morales" title="Miles Morales" id="toque">
+        </picture>
+    </div>
+    <!-- <video src="../homem-aranha-site/videos/Poder da Amizade!.mp4" poster="../homem-aranha-site/imagens/peter-parker/marvel-spider-man.jpg" controls>
+        <source media="(max-width: 1000px)" srcset="../homem-aranha-site/videos/video-transform/Poder Da Amizade!.mp4" type="video/mp4">
+    </video>  -->
+    <script>
+        var toque= document.getElementById('toque')
+        toque.addEventListener('click', opacidade)
+        function opacidade(){
+        }
+    </script>
+</body>
+</html>
