@@ -26,7 +26,7 @@ header>ul{
    list-style: none;
    
 }
-header>ul>li{
+header>ul>li>a{
     margin: 5px;
     background-color: rgba(0, 0, 255, 0.2);
     padding: 5px;
@@ -34,12 +34,14 @@ header>ul>li{
     box-shadow: .5px .5px 5px rgba(0, 0, 0, 0.3);
     width: 180px;
     display: block;
+    text-decoration: none;
+    color: black;
     transition: .3s;
     text-transform: uppercase;
     font-size:.8em ;
 
 }
-header>ul>li:hover{
+header>ul>li>a:hover{
     background-color: rgba(0, 0, 255, 0.5);
     box-shadow: none;
     letter-spacing: .05em;
