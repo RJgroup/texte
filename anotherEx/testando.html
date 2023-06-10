@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando coisas</title>
+    <style>
+        @font-face {
+            font-family: spider;
+            src: url('../homem-aranha-site/fontes/SPIDER-MAN\ ECLIPSE.ttf') format('truetype');
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: sans-serif;
+            background-color: rgba(0, 0, 0, 0.827);
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            display: inline;
+
+        }
+        .lista::after{
+            content: ' - ';
+        }
+        footer{
+            background-color: yellow;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Div.Geral -->
+    <div class="geral">
+        <!-- Div.Título -->
+        <div class="h1">
+            <h1>Spider-Man <br><span class="geral-h1-aparecer">black</span><h1>
+        </div>
+        <!-- imagem -->
+        <img src="../homem-aranha-site/imagens-transform/4k-miles-morales-no-650x365.jpeg" alt="rosto-homem-aranha">
+        <p>Miles Morales</p>
+        <!-- footer -->
+        <footer>
+            <ul>
+                <li class="lista">Espanhol</li>
+                <li class="lista">Russo</li>
+                <li class="lista">Inglês</li>
+                <li class="lista">Francês</li>
+                <li><strong>Português</strong></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

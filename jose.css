@@ -17,60 +17,54 @@ header{
     color: rgba(224, 144, 16, 0.725);
     background-color: rgb(226, 224, 224);
     
-    height: 150px;
+    height: 100px;
     
 }
-nav{
-    
+nav{   
     border-radius: 0px 0px 10px 10px ;
-    
-    
-    
-    
-    
-    background-color: rgb(255, 255, 255);
-    
+    background-color: rgb(255, 255, 255);   
 }
 a.primeiro{
     border-radius: 0px 0px 0px 10px;
 }
-
-nav>a{
-    display: inline-block;
-    
+nav>ul>li>a {
     color: black;
+    text-decoration: none;
+} 
+nav>ul>li{
+    display: inline-block;
     padding: 15px;
     text-decoration: none;
-    transition: .5s;
-    
+    transition: .5s;    
 }
-nav>a:hover{
-    background-color: black;
-    color: white;
-    
+nav>ul>li:hover {
+    background-color: #042940;
     text-decoration: underline;
+    color: white;
+}
+nav>ul>li:hover a{
+    color: white;
 }
 a:visited{
-    
+    color: black;
     text-decoration: none;
 }
-/*Main*/
+
+/* MAIN */
+
 main{
     height: 900px;
 }
-.absolute{
+.relative{
     border-radius: 10px;
-    position: absolute;
+    position: relative;
     width: 542px;
     transform: translate(-50%,-50%);
-    top: 65%;
+    top: 35%;
     left: 50%;
     overflow: hidden;
     border: 1px solid black;
-    margin-bottom: 30px;
-   
-    
-    
+    margin-bottom: 30px
 }
 .troca{
     position: absolute;
@@ -102,9 +96,7 @@ section{
     width: 500px;
     height: 550px;
     padding: 20px;
-    transition: .6s;
-    
-   
+    transition: .6s; 
 }
 .item{
     width: 500px;
@@ -127,11 +119,14 @@ p{
     text-indent: 20px;
     margin: 5px;
 }
-@keyframes abrir {
+/* /MAIN */
+
+
+/* @keyframes abrir {
     from{
         opacity: 0;
     }
     to{
         opacity: 100%;
     }
-}
+} */
