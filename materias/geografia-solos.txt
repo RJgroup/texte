@@ -1,0 +1,91 @@
+<hr>
+
+    <!-- Os solos em África e a produção alimentar -->
+
+    <p>Solo é a camada que recobre a superfície terrestre, ou ainda a camada externa da superfície terrestre, ou seja, os corpos formados por meio do intemperalismo físico e químico das rochas.</p>
+
+    <h2>Solos em África</h2>
+
+    <p>Em África encontramos uma diversidade de solos atendendo a vários condicionalismos físicos, com já estudaste em classes anteriores.</p>
+
+    <p>Assim encontramos os seguintes tipos de solo no continente:</p>
+
+    <ul>
+        <li>Solos das zonas equatoriais;</li>
+        <li>Solos das zonas tropicais húmidas;</li>
+        <li>Solos das zonas tropicais secas;</li>
+        <li>Solos das zonas desérticas, ou semi-desérticas;</li>
+    </ul>
+
+    <h2>Tipos e características dos solos</h2>
+
+    <h3>solos das zonas equatoriais</h3>
+
+    <p>São solos vermelhos ferralíticos muitos espessos, ultrapassando muitas vezes os 20 metros de espessura.</p>
+
+    <p>A presença de grande quantidade de óxido de ferro e de alumínio e a cor vermelha que os mesmos conferem aos solos explicam a designação de solos vermelhos ferralíticos.</p>
+
+    <h3>solos das zonas tropicais húmidas</h3>
+
+    <p>Nas regiões de clima tropical húmido em que a vegetação natural dominante é a savana surgem solos ferralíticos semelhantes aos da floresta densa equatorial, nas das quais se distinguem pela frequente formação de uma couraça ferralítica dura devido a predominância de minerais de ferro e alumínio.</p>
+
+    <h3>solos das zonas tropicais secas</h3>
+
+    <p>Aqui formam-se os solos ferruginosos menos profundos que os ferros ferralíticos e com grande concentração de óxidos de ferro.</p>
+
+    <h3>solos das zonas  desérticas e semi-desérticas</h3>
+
+    <p>A extrema pobreza ou mesmo a ausência total de vegetação, em resultado das condições climáticas atrás referidas explica o carácter pobre dos solos das regiões desértica quentes.</p>
+
+    <p>Na orla dos desertos, onde surge a vegetação de estepe, formam-se solos de fraco conteúdo orgânico.</p>
+
+    <p>Devido a abundância de cloreto de sódio (sal), os solos são muitas vezes salgados, particularmente nas depressões fechadas.</p>
+    
+    <span class="destaque">Nos desertos</span>
+
+    <p>Nos desertos absolutos o solo propriamente dito existe, pois, não havendo vegetação não há húmus. A rocha - mãe aflora em grandes extensões.</p>
+
+    <p>O solo é a produção de alimentos no continente africano. A utilidade dos solos em África.</p>
+
+    <p>O relevo influencia directamente a formação e as espessura dos solos nas áreas montanhosas é difícil a prática da agricultura porque o solo e pouco espesso devido à erosão acelerada pela inclinação das vertentes.</p>
+
+    <p>Mas nas áreas sem inclinação é necessário fazer-se a renovação do solo porque a drenagem é suficiente devido ao fraco declive. Assim, para o uso da terra ou solo destinados a produção de alimentos em África temos os seguintes:</p>
+
+    <!-- início da lista de terras -->
+
+    <ul>
+        <!-- Terras predominantemente não produtivas -->
+
+        <li><h3>Terras predominantemente não produtivas</h3></li>
+
+        <p>Compreendem a região do Sara, as faixas setentrional e oriental do corno de África e uma porção do sudoeste africano.</p>
+
+        <p>Estas terras correspondem as áreas desérticas e semi-desérticas que se caracterizam por uma elevada aridez resultante da escassez de água.</p>
+
+        <p>A desertificação é outro fenómeno que afecta o continente africano, cujas causas estão associados as alterações climáticas naturais e as actividades humanas, sobretudo no que respeita ao sobre pastoreio  à destruição da cobertura vegetal.</p>
+
+        <!-- Terras especialmente apropriadas para cultivo se melhoradas -->
+
+        <li><h3>Terras especialmente apropriadas para cultivo se melhoradas</h3></li>
+        <p>Existem a sul do equador e na parte dental do corno de África (Etiópia).</p>
+
+        <!-- Terras especialmente apropriadas ao cultivo agrícola, pastagens e terras florestais -->
+
+        <li><h3>Terras especialmente apropriadas ao cultivo agrícola, pastagens e terras florestais</h3></li>
+        
+        <p>Ocupam a faixa costeira sul, sudeste e oriental de África (África do Sul, Moçambique e Tanzânia), países como o Lesoto, algumas áreas da Zâmbia, Malawi, Burundi e Ruanda, faixa mediterrânea de Marrocos, Argélia e Tunísia, que dispõem, de pequenas áreas.</p>
+
+        <!-- Terras especialmente apropriadas para florestas ou pastagens permanentes -->
+
+        <li><h3>Terras especialmente apropriadas para florestas ou pastagens permanentes</h3></li>
+
+        <p>Coincidem com a zona de maiores precipitações, inclui o Congo Democrático, Congo, Gabão, Camarões, Guiné Equatorial, São Tomé e Príncipe, Nigéria, Benim, Gana, Costa do Marfim, Libéria e Serra Leoa.</p>
+
+        <!-- Terras geralmente apropriadas para pastos, marginalmente para cereais -->
+
+        <li><h3>Terras geralmente apropriadas para pastos, marginalmente para cereais</h3></li>
+
+        <p>Compreendem desde a costa atlântica até á parte ocidental do Corno de África e a sul do Sara e norte das zonas de maiores precipitações. Compreendem áreas do Senegal, Gâmbia, Mali, Burkina Faso, Níger, Chade, República Centro Africana, Sudão, Uganda, Quénia e Etiópia.</p>
+    </ul>
+
+    <!-- Final da lista de terras -->
