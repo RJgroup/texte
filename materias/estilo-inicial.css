@@ -18,6 +18,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: 1s;
 }
 header>h1{
    letter-spacing: .1em;
@@ -25,6 +26,9 @@ header>h1{
 header>ul{
    list-style: none;
    
+}
+ul>li{
+    transition: 1s;
 }
 header>ul>li>a{
     margin: 5px;
@@ -46,10 +50,40 @@ header>ul>li>a:hover{
     box-shadow: none;
     letter-spacing: .05em;
 }
+header>ul>li:hover{
+    margin-bottom: var(--es);
+}
 /* destaque */
 
 .destaque{
     color: #ff0000b1;
 }
-
 /* destaque */
+ul>li>ul{
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    animation-name: fechar;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    z-index: -3;
+    
+    list-style: none;
+}
+ul>li:hover>ul{
+    z-index: 2;
+    
+    opacity: 1;
+    
+}
+ul>li>ul>li>a{
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    line-height: 2em;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
