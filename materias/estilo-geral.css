@@ -1,8 +1,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .05em;
+    font-size: 1.3em;
 }
 .destaque{
-    color: #ff00009a;
+    color: red;
+    font-weight: bold;
 }
 table{
     margin: 0px;
@@ -13,4 +16,7 @@ td{
     margin: 0px; 
     outline: none;
     padding: 10px;
+}
+li{
+    margin: 5px;
 }
