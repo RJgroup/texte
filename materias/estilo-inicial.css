@@ -29,15 +29,21 @@ header>ul{
 }
 ul>li{
     transition: 1s;
+    
 }
-header>ul>li>a{
-    margin: 5px;
+header>ul>li{
+    position: relative;
     background-color: rgba(0, 0, 255, 0.2);
-    padding: 5px;
+    margin: 5px;
+    width: 180px;
     border-radius: 5px;
     box-shadow: .5px .5px 5px rgba(0, 0, 0, 0.3);
-    width: 180px;
-    display: block;
+}
+header>ul>li>a{
+    
+    
+    padding: 5px;
+    line-height: 3em;
     text-decoration: none;
     color: black;
     transition: .3s;
@@ -45,12 +51,12 @@ header>ul>li>a{
     font-size:.8em ;
 
 }
-header>ul>li>a:hover{
+header>ul>li:hover{
     background-color: rgba(0, 0, 255, 0.5);
     box-shadow: none;
     letter-spacing: .05em;
 }
-header>ul>li:hover{
+header>ul>li.renato{
     margin-bottom: var(--es);
 }
 /* destaque */
@@ -63,19 +69,12 @@ ul>li>ul{
     position: absolute;
     opacity: 0;
     transition: 1s;
-    animation-name: fechar;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
     z-index: -3;
-    
     list-style: none;
 }
-ul>li:hover>ul{
+ul>li.renato>ul{
     z-index: 2;
-    
     opacity: 1;
-    
 }
 ul>li>ul>li>a{
     background-color: aqua;
@@ -85,5 +84,58 @@ ul>li>ul>li>a{
     padding: 5px;
     border-radius: 5px;
 }
+.opcao{
+    position: absolute;
+    left: 100%;
+    transform: translateX(-100%);
+    display: inline-block;
+    
+    width: 40px;
+    height: 100%;
+}
+.opcao::before{
+    content: '';
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    box-shadow: 0 8px black;
+    transition: 0.5s;
+
+}
+.opcao::after{
+    content: '';
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    top: 70%;
+    transform: translatey(-100%);
+    background-color: black;
+    transition: 0.5s;
+}
+li.renato>div>.opcao::after{
+    transform: skewY(45deg);
+    width: 25px;
+    margin-top: -10px;
+}
+li.renato>div>.opcao::before{
+    box-shadow: 0 0 black;
+    transform: skewY(-45deg);
+    margin-top: 10px;
+    width: 25px;
+}
+
+li>div{
+    width: 40px;
+    
+    height: 100%;
+    left: 100%;
+    position: absolute;
+    display: inline-block;
+    transform: translateX(-100%);
+}
+
 
 
