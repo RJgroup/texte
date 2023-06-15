@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    
+}
+td, th{
+    border: 1px solid black;
+}
+.glossario{
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.glossario>h1{
+    margin: 2%;
+}
