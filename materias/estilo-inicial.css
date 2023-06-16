@@ -56,8 +56,9 @@ header>ul>li:hover{
     box-shadow: none;
     letter-spacing: .05em;
 }
-header>ul>li.renato{
-    margin-bottom: var(--es);
+header>ul>li.renato
+{
+    margin-bottom:var(--es);
 }
 /* destaque */
 
