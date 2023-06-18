@@ -17,3 +17,8 @@ td, th{
 .glossario>h1{
     margin: 2%;
 }
+img{
+    display: block;
+    width: 300px;
+    margin:auto;
+}
