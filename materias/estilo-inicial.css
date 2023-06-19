@@ -56,8 +56,9 @@ header>ul>li:hover{
     box-shadow: none;
     letter-spacing: .05em;
 }
-header>ul>li.renato{
-    margin-bottom: var(--es);
+header>ul>li.renato
+{
+    margin-bottom:var(--es);
 }
 /* destaque */
 
@@ -67,8 +68,10 @@ header>ul>li.renato{
 /* destaque */
 ul>li>ul{
     position: absolute;
+    display: block;
+    width: 600px;
     opacity: 0;
-    transition: 1s;
+    transition: .5s;
     z-index: -3;
     list-style: none;
 }
@@ -76,6 +79,7 @@ ul>li.renato>ul{
     z-index: 2;
     opacity: 1;
 }
+
 ul>li>ul>li>a{
     background-color: aqua;
     color: black;
@@ -83,6 +87,10 @@ ul>li>ul>li>a{
     line-height: 2em;
     padding: 5px;
     border-radius: 5px;
+    transition: .5s;
+}
+ul>li>ul>li>a:hover{
+    background-color:rgb(0, 221, 221) ;
 }
 .opcao{
     position: absolute;
