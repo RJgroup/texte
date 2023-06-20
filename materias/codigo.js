@@ -22,6 +22,6 @@ volume=Math.floor(volume)
         document.getElementById('verific').style.display='none'
         document.getElementById('res').style.display='block'
     }else{
-        document.write('errado')
+        alert('Errado, contacte com o dono do site')
     }
  }
