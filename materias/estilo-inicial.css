@@ -7,9 +7,9 @@
 :root{
     --texto:rgb(0, 0, 0);
     --textohover:black;
-    --cor1:#029eff;
-    --cor1tr:#c1e2fe;
-    --cor1hover:#0000ff80;
+    --cor1:#348888;
+    --cor1_2:#22BABB;
+    --cor1_3:#0000ff80;
     --cor2:#9100cb;
     --cor2tr:#9100cb8b;
     --cor2hover:#9100cb50;
@@ -18,7 +18,7 @@
 body{
     height: 100vh;
    
-    background-image: linear-gradient(45deg, var(--cor1tr),var(--cor1hover));
+    background-image: linear-gradient(45deg, var(--cor1_2),var(--cor1_3));
     overflow: hidden;
     
 }
@@ -117,7 +117,7 @@ ul>li>ul>li>a{
     max-width: 250px;
 }
 ul>li>ul>li>a:hover{
-    background-color:var(--cor1tr) ;
+    background-color:var(--cor1_2) ;
 
 }
 .opcao{
@@ -178,6 +178,10 @@ li>div{
     padding: 5px;
     border-radius: 5px;
     box-shadow: var(--shadow);
+    transform: translateX(-100%);
+    animation-name: aparecer;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
 }
 .temas>p{
     font-size: 1.5em;
@@ -186,3 +190,8 @@ li>div{
 
 
 
+@keyframes aparecer {
+    to{
+        transform: translateX(0);
+    }
+}
