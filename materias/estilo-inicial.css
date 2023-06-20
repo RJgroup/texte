@@ -7,7 +7,9 @@
 body{
     height: 100vh;
     background-color: lightskyblue;
-    background-image: linear-gradient(45deg, rgb(193, 226, 254),rgb(2, 158, 255))
+    background-image: linear-gradient(45deg, rgb(193, 226, 254),rgb(2, 158, 255));
+    overflow: hidden;
+    
 }
 header{
     padding: 10px;
@@ -143,6 +145,9 @@ li>div{
     position: absolute;
     display: inline-block;
     transform: translateX(-100%);
+}
+.res{
+    display: none;
 }
 
 
