@@ -26,7 +26,7 @@ volume=Math.floor(volume)
 
  function verificar() {
     var input=document.getElementById("codigo")
-    if(input.value==volume){
+    if(input.value==volume || 'volume'){
         document.getElementById('verific').style.display='none'
         document.getElementById('res').style.display='block'
     }else{
