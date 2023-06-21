@@ -148,3 +148,46 @@ mark{
     border-radius: 3px;
     
 }
+div.contactos>ul{
+    list-style: none;
+    display: flex;
+}
+div.contactos>ul>li{
+    background-color:var(--cor2_2);
+    border-radius: 5px;
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    position: relative;
+    transition: .5s;
+
+}
+div.contactos>ul>li:hover{
+    background-color: var(--cor2);
+}
+div.contactos>ul>li>div{
+
+display: inline-block;
+
+
+}
+div.contactos>ul>li>a{
+    display: inline-block;
+    text-decoration: none;
+    color:var(--texto);
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    height: 20px;
+    
+    border-radius: 5px;
+    
+    
+   
+}
+div.contactos>ul>li>div>img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

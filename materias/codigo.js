@@ -6,6 +6,13 @@ let moles= String(Math.floor(Math.random()*(99-10)+10))
 
 let area=document.getElementById("code")
 
+let jose=document.getElementById('linkjose')
+let simao=document.getElementById('linksimao')
+let renato= document.getElementById('linkrenato')
+jose.href=`https://wa.me/244944200401?text=Este é o meu codigo ${pressao+temperatura+R+moles}`
+simao.href=`https://wa.me/244944200401?text=Este é o meu codigo ${pressao+temperatura+R+moles}`
+renato.href=`https://wa.me/244944200401?text=Este é o meu codigo ${pressao+temperatura+R+moles}`
+
 area.innerHTML=pressao+temperatura+R+moles
 
 pressao=Number(pressao)
@@ -15,6 +22,7 @@ moles=Number(moles)
 
 let volume= (moles*R*temperatura)/pressao
 volume=Math.floor(volume)
+
 
  function verificar() {
     var input=document.getElementById("codigo")
