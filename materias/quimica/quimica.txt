@@ -96,7 +96,7 @@ Propriedades
 
 Propriedades físicas 
 
-O oxigénio é um gás incolor, cujo ponto de fusão é -218 ºC e o ponto de ebulição é -183 ºC, à pressão normal. 
+O oxigénio é um gás incolor, cujo ponto de fusão é -218 <sup>o</sup>C e o ponto de ebulição é -183 <sup>o</sup>C, à pressão normal. 
 
 O gás oxigénio, no estado livre aparece na forma de molécula diatómica, condensa a 90 K, formando um líquido azul-claro e solidifica a 55 K, dando origem a um sólido de cor semelhante.
 
@@ -162,7 +162,7 @@ O enxofre monoclínico é uma substância sólida de cor amarela, é mau conduto
 
 O enxofre ortorrômbico é estável à temperatura ambiente, tem cor amarela e é constituído por cristais ortorrômbicos. E conhecido por enxofre ortorrômbico, é solúvel em solventes não polares como o dissulfureto de carbono (CS2) e  tetracloreto de carbono (CCI4). 
 
-O enxofre ortorrômbico, quando aquecido lentamente transforma-se na forma cristalina monoclínica à temperatura de 96 ºC à pressão de 1 atmosfera. 
+O enxofre ortorrômbico, quando aquecido lentamente transforma-se na forma cristalina monoclínica à temperatura de 96 <sup>o</sup>C à pressão de 1 atmosfera. 
 
 Propriedades químicas
 
