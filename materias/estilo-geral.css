@@ -23,7 +23,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    font-family: 'Pangolin', cursive;
+    font-family: 'Pangolin', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -31,7 +31,7 @@ html{
 table{
     
 }
-ul{
+ul,ol{
     list-style: inside;
 }
 td, th{
@@ -92,6 +92,7 @@ input:focus{
 button.botao{
     margin: 5px;
     box-shadow: .5px .5px 5px rgba(0, 0, 0, 0.407);
+
 }
 button.botao:hover{
     background-color: rgba(0, 255, 255, 0.486);
@@ -103,29 +104,33 @@ button.botao:active{
     letter-spacing: .2em;
 }
 .temas{
+    transition: .5s;
     list-style: none;
     background-image: linear-gradient(45deg, var(--cor1), var(--cor1_3));
     padding: 10px;
     box-shadow: var(--shadow);
     border-radius: 0px 0px 5px 5px;
 }
-.temas>li>a{
+.temas>li>ul{
+    list-style: none;
+    transform: translateX(-100%);
+    transition: .5s;
+}
+.temas>li>ul>li>a{
     text-decoration: none;
     color: var(--texto);
     background-color: var(--cor2_2);
     padding: 5px;
     display: block;
-   
     border-radius: 5px;
     width: 250px;
     margin:5px auto;
     transition: .3s;
-
 }
-.temas>li>a:hover{
+.temas>li>ul>li>a:hover{
     background-color: var(--cor2);
 }
-.temas>li>a:active{
+.temas>li>ul>li>a:active{
     background-color: var(--cor1);
 }
 section{
@@ -180,14 +185,50 @@ div.contactos>ul>li>a{
     top:50%;
     transform: translateY(-50%);
     height: 20px;
-    
     border-radius: 5px;
-    
-    
-   
 }
 div.contactos>ul>li>div>img{
     width: 20px;
     height: 20px;
     margin-right: 5px;
+}
+button.boton{
+    margin:20px auto;
+    display: block;
+    padding: 5px;
+    background-color: var(--cor1_2);
+    border-radius: 5px;
+    transition: .5s;
+    border: none;
+    border: 2px solid rgba(80, 80, 80, 0);
+
+
+}
+button.boton:hover{
+    background-color: var(--cor1_3);
+    letter-spacing: .05em;
+
+}
+
+button.boton ~ ul{
+    display: none;
+    transition: .5s;
+    
+}
+button.renato ~ul{
+    display: block;
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    transition: .5s;
+}
+button.renato{ 
+    border: 2px solid rgb(80, 80, 80);
+}
+
+@keyframes aparecer{
+    to{
+        transform: translateX(0);
+    }
 }

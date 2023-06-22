@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilo-geral.css">
     <title>geografia</title>
-
+   
 </head>
 <body>
     <div class="verific" id="verific">
@@ -13,7 +13,7 @@
         
         </p>
         <label class="code" for="codigo">Envie esse codigo acima para responsavel do site, depois digite o codigo de entrada</label>
-        <input class="botao" name="codigo" id="codigo" type="text">
+        <input class="botao" name="codigo" id="codigo" type="password">
         <button class="botao" onclick="verificar()">verificar</button>
         <div class="contactos">
             <ul>
@@ -32,63 +32,78 @@
     <div class="res" id="res">
         <ul class="temas">
             <li>
-                <a href="#lca">localização do continente africano</a>
+                <button class="boton" onclick="funcao(this)" type="button" >1<sub>o</sub> trimestre</button>
+                <ul>
+                    <li>
+                        <a href="#lca">localização do continente africano</a>
+                    </li>
+                    <li>
+                        <a href="#dhc"> As diferenças horarias no continente</a>
+                    </li>
+                    <li>
+                        <a href="#esfh">Exercícios sobre os fusos horários</a>
+                    </li>
+                    <li>
+                        <a href="#papc">Os paises africanos e as principais cidades</a>
+                    </li>
+                    <li>
+                        <a href="#acna">Acidentes costeiros mais notaveis em Africa</a>
+                    </li>
+                    <li>
+                        <a href="#al">Africa linguistica</a>
+                    </li>
+                    <li>
+                        <a href="#acl">Africa climatica</a>
+                    </li>
+                    <li><a href="#ae">Africa economica</a></li>
+                    <li><a href="#apjrpe">Africa uma  população jovem eos refles da piramide étaria</a></li>
+                </ul>
             </li>
+            
+           
             <li>
-                <a href="#dhc"> As diferenças horarias no continente</a>
+                <button class="boton" onclick="funcao(this)" type="button">2<sup>o</sup> trimestre</button>
+                <ul>
+                    <li><a href="#ddpci">A desigual distribuição da populção do continente </a></li>
+                    <li><a href="#gcdagvh">As grandes concentrações demográficas em Africa e os grandes vazios humanos</a></li>
+                    <li><a href="#cdpa">Condicionalismo da distribuição da população africana</a></li>
+                    <li><a href="#tmi">Tipos de migrações</a></li>
+                    <li>
+                    <a href="#ci">Os conflitos interétnicos </a>
+                    </li>
+                    <li>
+                    <a href="#peurm">Potencializar a exploração dos recursos minerais</a>
+                    </li>
+                </ul>
             </li>
+            
             <li>
-                <a href="#esfh">Exercícios sobre os fusos horários</a>
+                <button type="button" class="boton" onclick="funcao(this)" >3<sup>o</sup> trimestre</button>
+                <ul>
+                    <li>
+                        <a href="#rh">Os recusrsos hidricos</a>
+                    </li>
+                    <li>
+                        <a href="#pdqgac">Problema da distribuição, qualidade e gestão de águas</a>
+                    </li>
+                    <li>
+                        <a href="#pad">A poluiçao da água doce</a>
+                    </li>
+                    <li>
+                        <a href="#pas">Poluição das aguas subterrâneas</a>
+                    </li>
+                    <li>
+                        <a href="#sapa">Solos em áfrica e a produção alimentar</a>
+                    </li>
+                    <li>
+                        <a href="#des">Desflorestação</a>
+                    </li>
+                    <li>
+                        <a href="#if">importância das florestas</a>
+                    </li>
+                </ul>
             </li>
-            <li>
-                <a href="#papc">Os paises africanos e as principais cidades</a>
-            </li>
-            <li>
-                <a href="#acna">Acidentes costeiros mais notaveis em Africa</a>
-            </li>
-            <li>
-                <a href="#al">Africa linguistica</a>
-            </li>
-            <li>
-                <a href="#acl">Africa climatica</a>
-            </li>
-            <li><a href="#ae">Africa economica</a></li>
-            <li><a href="#apjrpe">Africa uma  população jovem eos refles da piramide étaria</a></li>
-            <li><a href="#IItrimestre">IItrimestre</a></li>
-            <li><a href="#ddpci">A desigual distribuição da populção do continente </a></li>
-            <li><a href="#gcdagvh">As grandes concentrações demográficas em Africa e os grandes vazios humanos</a></li>
-            <li><a href="#cdpa">Condicionalismo da distribuição da população africana</a></li>
-            <li><a href="#tmi">Tipos de migrações</a></li>
-            <li>
-                <a href="#ci">Os conflitos interétnicos </a>
-            </li>
-            <li>
-                <a href="#peurm">Potencializar a exploração dos recursos minerais</a>
-            </li>
-            <li>
-                <a href="#III">III Trimestre</a>
-            </li>
-            <li>
-                <a href="#rh">Os recusrsos hidricos</a>
-            </li>
-            <li>
-                <a href="#pdqgac">Problema da distribuição, qualidade e gestão de águas</a>
-            </li>
-            <li>
-                <a href="#pad">A poluiçao da água doce</a>
-            </li>
-            <li>
-                <a href="#pas">Poluição das aguas subterrâneas</a>
-            </li>
-            <li>
-                <a href="#sapa">Solos em áfrica e a produção alimentar</a>
-            </li>
-            <li>
-                <a href="#des">Desflorestação</a>
-            </li>
-            <li>
-                <a href="#if">importância das florestas</a>
-            </li>
+            
         </ul>
 
         <section>
@@ -1037,5 +1052,6 @@
                 </div>
         </section>
     <script src="../codigo.js"></script>
+    <script src="../script-inicial.js"></script>
 </body>
 </html>
