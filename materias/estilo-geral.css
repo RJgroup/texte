@@ -49,7 +49,7 @@ td, th{
 }
 img{
     display: block;
-    width: 300px;
+    width: 200px;
     margin:auto;
 }
 .res{
@@ -135,10 +135,11 @@ button.botao:active{
 }
 section{
     background-color: aliceblue;
-    margin: 10px;
+    margin:20px auto;
     border-radius: 5px;
     padding: 10px;
     box-shadow: var(--shadow);
+    max-width: 300px;
 }
 p{
     text-indent: 10px;
