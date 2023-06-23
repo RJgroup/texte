@@ -38,7 +38,7 @@ td, th{
     border: 1px solid black;
 }
 .glossario{
-    width: 500px;
+    width: auto;
     height: auto;
     border: 1px solid black;
     border-radius: 10px;
