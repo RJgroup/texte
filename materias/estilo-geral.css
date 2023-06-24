@@ -261,8 +261,8 @@ button.renato{
     border: 2px solid rgb(80, 80, 80);
 }
 
-/* @keyframes aparecer{
+@keyframes aparecer{
     to{
         transform: translateX(0);
     }
-} */
+} 
