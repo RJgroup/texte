@@ -43,6 +43,7 @@ iframe{
     width: 280px;
     height: 500px;
     overflow: hidden;
+
     width: auto;
     border-collapse: collapse;
 }
@@ -178,7 +179,7 @@ h1,h2,h3{
 mark{
     background-color: var(--cor1_3);
     border-radius: 3px;
-    
+
 }
 div.contactos>ul{
     list-style: none;
@@ -242,7 +243,7 @@ button.boton:hover{
 button.boton ~ ul{
     display: none;
     transition: .5s;
-    
+
 }
 button.renato ~ul{
     display: block;
@@ -252,7 +253,7 @@ button.renato ~ul{
     animation-timing-function: linear;
     transition: .5s;
 }
-button.renato{ 
+button.renato{
     border: 2px solid rgb(80, 80, 80);
 }
 
@@ -260,4 +261,4 @@ button.renato{
     to{
         transform: translateX(0);
     }
-}
+} 
