@@ -30,6 +30,7 @@ html{
 }
 table{
 
+
     background-color: aliceblue;
     border-collapse: collapse;
 }
@@ -45,14 +46,17 @@ iframe{
 
     
 
+
+    width: auto;
+    border-collapse: collapse;
+
 }
 ul,ol{
     list-style: inside;
 }
-
 td, th{
     border: 1px solid black;
-   
+    padding: 1px;
 }
 .glossario{
     width: auto;

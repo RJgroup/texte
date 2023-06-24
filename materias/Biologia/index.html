@@ -13,17 +13,6 @@
         section{
             margin-bottom: 100px;
         }
-
-     
-        .dashed{
-            border: 3px dashed black;
-            margin-right: 10px;
-            padding: 10px;
-            width: 45%;
-            display: inline-block;
-            height: auto;
-
-        }
         .hematose{
             display: inline-block;
             width: 30%;
@@ -33,6 +22,13 @@
         }
         section{
             max-width: 400px;
+        }
+        .cfp{
+            border: 2px dashed #70e3fdc4;
+            margin-bottom: 10px;
+        }
+        .tin>tr>td{
+            border: none;
         }
         footer{
             background-color: #008000b6;
@@ -66,6 +62,7 @@
     </div> 
  <div class="res" id="res"> 
     <ul class="temas">
+        <!-- I Trimestre -->
 
         <li>
             <button type="button" class="boton" onclick="funcao(this)">I trimestre</button>
@@ -73,6 +70,7 @@
                 <li>
                     <a href="#asr">Anatomia do sistema reprodutor</a>
                 </li>
+                <li><a href="cit">Citologia</a></li>
                 <li>
                     <a href="#tc">Teoria celular</a>
                 </li>
@@ -109,6 +107,9 @@
                
             </ul>
         </li>
+
+        <!-- II Trimestre -->
+
         <li>
             <button type="button" onclick="funcao(this)" class="boton">II trimestre</button>
             <ul>
@@ -128,6 +129,9 @@
                     <a href="#etd">Estrutura dos tecidos dérmicos</a>
                 </li>
                 <li>
+                    <a href="#eftf">Estrutura e função dos tecidos fundamentais</a>
+                </li>
+                <li>
                     <a href="#etc">Estruturados tecidos condutores</a>
                 </li>
                 <li>
@@ -143,6 +147,9 @@
             </ul>
 
         </li>
+
+        <!-- III Trimestre -->
+
         <li>
             <button type="button" onclick="funcao(this)" class="boton" > III Trimestre</button>
             <ul>
@@ -154,7 +161,13 @@
                     <a href="#efte">Estrutura e função dos tecidos epteliais</a>
                 </li>
                 <li>
-                    <a href="#tce">Tecido conjuntivos especializados</a>
+                    <a href="#tcpd">Tecido conjuntivo propriamente dito</a>
+                </li>
+                <li>
+                    <a href="#tce">Tecidos conjuntivos especializados</a>
+                </li>
+                <li>
+                    <a href="#efts">Estrutura e função dos tecidos sanguíneos</a>
                 </li>
                 <li>
                     <a href="#eftm">Estrutura e função dos tecidos musculares</a>
@@ -201,6 +214,28 @@
             <p>Sistema nervoso - O sistema nervoso é a parte do organismo que transmite sinais entre as suas diferentes partes e coordena as suas acções voluntárias e involuntárias. Está constituído por: sistema nervoso central (encéfalo, cordão espinhal) e sistema nervoso periférico (nervos cranianos, nervos espinhais e gânglios).</p>
             <p>Sistema reprodutor - O sistema reprodutor é o sistema de órgãos dentro de um organismo que trabalham em conjunto a finalidade de reprodução. Está dividido em feminino e masculino. O masculino está constituído por (pénis, escroto, os testículos, o epedidimo, o canal deferente, a prostata, vesícula seminais). O feminino está constituído por (ovários, útero, tubas uterinas e o próprio canal vaginal).</p>
         </section>
+
+        <!-- Citologia -->
+
+        <section id="cit">
+            <h1>Citologia</h1>
+
+            <p><strong>Citologia:</strong> é o ramo da Biologia que estuda as células.</p>
+
+            <p>A palavra citologia é de origem grega e significa <em>citos</em> - célula e <em>logos</em> - estudo.</p>
+
+            <p>O microscópio foi inventado em <strong>1591</strong> por <strong>Hans Jassen e o seu filho Zhacarias</strong>, com o objectivo de produzir lentes. <span class="destaque">Antonie Van Leenwenhoek </span>(1632 - 1723) foi o primeiro citólogo a descobrir as bactérias utilizando o microscópio simples</p>
+
+            <p><strong>Robert Hook (1635 - 1703)</strong> foi o citólogo que descobriu na observação do microscópio composto a célula. Hook observou fatias muito finas de cortiças (casca de árvore) com esse material conseguiu observar a célula.</p>
+
+            <p><strong>Marcelo Malpighi (1622- 1694)</strong> na Itália descobriu o citoplasma na observação de algumas estruturas de órgãos de plantas.</p>
+
+            <p><strong>Robert Brown (1833)</strong> o inglês descobriu o núcleo apartir das células de outras plantas.</p>
+
+        </section>
+
+        <!-- Teoria Celular -->
+
         <section>
             <h1 id="tc">Teoria celular</h1>
             <p>
@@ -672,23 +707,61 @@
             </div>
         </section>
     
-        <section>
+        <section id="eftf">
             <h2>2.1.1.2. Estrutura e função dos tecidos fundamentais</h2>
             <h3>Que características apresentam os tecidos fundamentais?</h3>
     
-            <!-- <table>
+            <table>
+
+                <p>De suporte:</p>
+                <p>Parênquimas:</p>
+
                 <tr>
-                    <th></th>
                     <th>Classificação</th>
                     <th>Estrutura</th>
                     <th>Função</th>
                     <th>Ocorrência</th>
                 </tr>
                 <tr>
-                    <td colspan="5"></td>
+                    <td>Colênquima</td>
+                    <td>
+                        Formado por células vivas. Possui uma parede com espessura variada, devido a depósitos de <strong>celulose</strong>. A celulose é um dos principais constituintes da parede celular das plantas.
+                    </td>
+                    <td>
+                        Suporte e resistência
+                    </td>
+                    <td>
+                        Raízes, cau- <br>les jovens e folhas (abai- <br> xo da epiderme)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Esclerênqueima</td>
+                    <td>Formado por células mortas com paredes muito espessas de <strong>lenhina</strong>. As suas células podem ser divididas em <strong>escleritos</strong>(com formas variáveis e curtas) e <strong>fibras</strong> (células alongadas).</td>
+                    <td>Suporte e resitência</td>
+                    <td>Raízes e caules (abai- <br>xo da epiderme, a rodear o xilema e o floema)</td>
+                </tr>
+                <tr>
+                    <td>Clorofilino</td>
+                    <td>Formados por células vivas e possuem cloroplastos. <strong>Parênquima em paliçada:</strong> Possui células alongadas e sobrepostas.
+                    <strong>Parênquima lacunoso:</strong> Tem forma irregular e é separado por espaços.</td>
+                    <td>Reserva (água, oxigénio e matéria orgânica) e fotossíntese</td>
+                    <td>Folhas e caules jo- <br>vens (na periferia)</td>
+                </tr>
+                <tr>
+                    <td>De reserva</td>
+                    <td>Formados por células vivas. Normalmente apresentam paredes finas.</td>
+                    <td>Reserva (amido e proteína)</td>
+                    <td>Raízes, caules e rizomas (caules subter-<br> râneos)</td>
+                </tr>
+                <tr>
+                    <td>Secretores</td>
+                    <td>Formadas por células vivas secretoras.</td>
+                    <td>Secreção (resina e látex)</td>
+                    <td>Estruturas <br>de origem epidérmica.</td>
                 </tr>
             </table>
-         -->
+        
         </section>
     
         <section>
@@ -877,17 +950,58 @@
             <p>Todos os tecidos conjuntivos são constituídos pelos mesmos elementos básicos: células (de diferentes tipos) separadas por uma grande quantidade de material extracelular. Este material, produzido pelas células é constituído por fibras e por uma substancia fundamental ou matriz. A quantidade e qualidade destes componentes definem os diversos tipos de tecido conjuntivo.</p>
         </section>
     
-        <section>
+        <section id="tcpd">
             <h2>Tecido conjuntivo propriamente dito</h2>
             <h3>Como se caracterizam os tecidos conjuntivos propriamente ditos?</h3>
     
             <p>Os tecidos conjuntivos propriamente ditos localizam-se em todos os órgãos e desempenham diversas funções: unem os vários órgãos, preenchem os espaços entre os tecidos, suportam e defendem o organismo.</p>
     
-            <!-- <table>
+            <table>
                 <tr>
-    
+                    <th>TECIDOS CONJUNTIVOS PROPRIAMENTE DITOS</th>
+                    <th style="text-align: center;">CARACTERÍSCTICAS</th>
                 </tr>
-            </table> -->
+                <tr>
+                    <td>Tecido Conjuntivo Laxo</td>
+                    <td>
+                        <ul>
+                            <li>Tecido conjuntivo mais comum;</li>
+                            <li>Contém todos os elementos típicos dos tecidos conjuntivos (células, fibras e matriz), sem predomínio de um deles.</li>
+                            <li>As células mais comuns são: <strong>fibroblastos</strong> (células com forma de estrela, que produzem e mantêm o material extracelular) e os <strong>macrófagos</strong> (células grandes e móveis cin capacidade de realizar a fagocitose, ou seja, envolvem e destroem os corpos estranhos ao organismo).</li>
+                            <li>Contém <strong>fibras elásticas, reticulares</strong> e de <strong>colagénio</strong></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tecido Conjuntivo Denso</td>
+                    <td>
+                        <ul>
+                            <li>
+                                Tecido flexívem mas resistente às acções mecânicas.
+                            </li>
+                            <li>
+                                Contém todos os elementos típicos dos tecidos conjuntivos (células, fibras e matriz).
+                            </li>
+                            <li>
+                                Predominam as <strong>fibras de colagénio.</strong>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tecido Conjuntivo Elástico</td>
+                    <td>
+                        <ul>
+                            <li>
+                                Contém todos os elementos típicos dos tecidos conjuntivos (células, fibras e matriz)
+                            </li>
+                            <li>
+                                Rico em <strong>fibras elásticas.</strong>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
         </section>
     
         <section>
@@ -948,68 +1062,146 @@
                 <li>Reparar tecidos feridos;</li>
                 <li>Regular o pH e a temperatura corporal;</li>
                 <li>Intervir na coagulação.</li>
-            </ul>
+            </ul><br>
     
-            <h4>CONSTITUIÇÃO E FUNÇÃO DO PLASMA</h4>
+            <h3>CONSTITUIÇÃO E FUNÇÃO DO PLASMA</h3>
     
-            <p>
-                ÁGUA: 90-92% <br>
-                Função:
+            <div class="cfp">
+                <p>
+                    <strong>ÁGUA: 90-92%</strong>
+                </p>
+                <p>Função:</p>
                 <ul>
                     <li>Mantém o volume do sangue;</li>
                     <li>Permite a dissolução de outras substâncias;</li>
                     <li>Transporta moléculas e iões.</li>
-                </ul>
-    
-                PROTEÍNAS: <br>
-                Função:
+                </ul><br>
+            </div>
+
+            <div class="cfp">
+                <p><strong>PROTEÍNAS:</strong></p>
+                <p>Função:</p>
                 <ul>
                     <li>Actua na coagulação do sangue;</li>
                     <li>Acciona a defesa do organismo;</li>
                     <li>Mantém o volume e a pressão do sangue.</li>
-                </ul>
-    
-                SAIS: Menos de 1% <br>
-                Função:
+                </ul><br>
+            </div>
+
+            <div class="cfp">
+                <p>SAIS: Menos de 1%</p>
+                <p>Função:</p>
                 <ul>
                     <li>
                         Mantém a pressão e o pH.
                     </li>
-                </ul>
-    
-                GASES: <br>
-                Função:
-    
+                </ul><br>
+            </div>
+
+            <div class="cfp">
+                <p><strong>GASES:</strong></p>
+                <p>Função:</p>
                 <ul>
                     <li>Intervém na respiração celular - Oxigénio;</li>
-    
                     <li>Eliminam produtos de excreção - Dióxido de carbono.</li>
-                </ul>
-    
-                LÍPIDOS. GLICIDOS E AMINOÁCIDOS: <br>
-                Função:
-    
+                </ul><br>
+            </div>
+
+            <div class="cfp">
+                <p><strong>LÍPIDOS. GLICIDOS E AMINOÁCIDOS:</strong></p>
+                <p>Função:</p>
                 <ul>
                     <li>
                         Oferecem nutrição às células
                     </li>
-                </ul>
-    
-                UREIA: <br>
-                Função:
-    
+                </ul><br>
+            </div>
+
+            <div class="cfp">
+                <p><strong>UREIA:</strong></p>
+                <p>Função:</p>
                 <ul>
                     <li>(produto resultante do metabolismo) </li>
-                </ul>
-    
-                HORMONAS E VITAMINAS: <br>
-                Função:
-    
+                </ul><br>
+            </div>
+
+            <div class="cfp">
+                <p><strong>HORMONAS E VITAMINAS:</strong></p>
+                <p>Função:</p>
+            </div>
+
+            <div class="cfp">
                 <ul>
                     <li>Intervém no metabolismo</li>
-                </ul>
-                <!-- Continuar amanhã esta parte por favor -->
-            </p>
+                </ul><br>
+            </div>
+            
+            <h3>Elementos celulares</h3>
+
+            <table>
+                <!-- primeira linha de tabela -->
+                <tr>
+                    <th>ELEMENTOS CELULARES</th>
+                    <th>CARACTERÍSCTICAS E FUNÇÃO</th>
+                </tr>
+                <!-- segunda linha de tabela -->
+                <tr>
+                    <td>Hemácias</td>
+                    <td>
+                        <ul>
+                            <li>Transportam o oxigénio e algum dióxido de carbono;</li>
+                            <li>Possuem forma de disco bicôncavo;</li>
+                            <li>Contém hemoglobina (que lhes dá a cor vermelha);</li>
+                            <li>Não têm núcleo nem organelos;</li>
+                        </ul>
+                    </td>
+                </tr>
+                <!-- terceira linha de tabela -->
+                <tr>
+                    <td>
+                        <table class="tin">
+                            <tr>
+                                <th rowspan="4">L <br>E<br>U<br>C<br>Ó<br>C<br>I<br>T<br>O<br>S</th>
+                            </tr>
+                            <tr>
+                                <td>Glandulares
+                            </tr>
+                            <tr>
+                                <td>Agranulares</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Têm função de defesa do organismo contra infecções;</li>
+                            <li>Possuem núcleos com formas diversificadas;</li>
+                            <li>Apresentam grânulos no citoplasma.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <!-- Quarta linha de tabela -->
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Defendem o organismo contra infecções;</li>
+                            <li>Apresentam um núcleo de grande dimensão;</li>
+                            <li>Apresentam grânulos no citoplasma.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <!-- Quinta linha de tabela -->
+                <tr>
+                    <td>Plaquetas</td>
+                    <td>
+                        <ul>
+                            <li>Produzem substâncias necessárias á coagulação do sangue;</li>
+                            <li>São fragmentos celulares;</li>
+                            <li>Têm pequenas dimensões;</li>
+                            <li>Não possuem núcleo</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
         </section>
     
         <!-- Estrutura e função dos tecidos musculares -->
