@@ -29,6 +29,7 @@ html{
     scroll-behavior: smooth;
 }
 table{
+
     background-color: aliceblue;
     border-collapse: collapse;
 }
@@ -41,6 +42,9 @@ iframe{
     width: 280px;
     height: 500px;
     overflow: hidden;
+
+    width: auto;
+
 }
 ul,ol{
     list-style: inside;
@@ -59,6 +63,14 @@ td, th{
 }
 .glossario>h1{
     margin: 2%;
+}
+.dashed{
+    border: 3px dashed black;
+    margin-right: 10px;
+    padding: 10px;
+    width: 45%;
+    display: inline-block;
+    height: auto;
 }
 img{
     display: block;
