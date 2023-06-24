@@ -29,13 +29,26 @@ html{
     scroll-behavior: smooth;
 }
 table{
-    
+    background-color: aliceblue;
+    border-collapse: collapse;
+}
+tr.principal{
+    background-color: var(--cor1_3);
+    position: sticky;
+
+}
+iframe{
+    width: 280px;
+    height: 500px;
+    overflow: hidden;
 }
 ul,ol{
     list-style: inside;
 }
+
 td, th{
     border: 1px solid black;
+   
 }
 .glossario{
     width: auto;
