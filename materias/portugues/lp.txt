@@ -1,0 +1,220 @@
+ <section class="abc">
+            <h1>Apresentação e breves considerações</h1>
+            <h2>Materiais necessários</h2>
+            <ul>
+                <li>Caderno de Língua Portuguesa;</li>
+                <li>Manual de leitura;</li>
+                <li>Gramática da Língua Portuguesa;</li>
+                <li>Dicionário da Língua Portuguesa;</li>
+                <li>Manual de caligrafia;</li>
+                <li>Livros de apoio (diversos);</li>
+                <li>Cadernos de actividades;</li>
+                <li>Resma de papel A4.</li>
+            </ul>
+        </section>
+
+        <section id="am-as">
+            <h1>Análise morfológica - Análise sintática</h1>
+            <p>Analise morfológica: é o estudo da estrutura e da classificação. Substantivos; adjectivos, pronomes, verbos numerais, artigos, advérbios, preposições, conjugações, interjeições.</p>
+            <p>A análise morgológica examina apenas no nível das palavras.</p>
+            <p>Morfologia: estuda as palavras quanto a sua estrutura, formação, classificação e flexões.</p>
+            <p>Ex: Uma inscrição de anos resolve o último mistério da devastação de Pompeia</p>
+            <ul>
+                <li>Uma - artigo indifinido do feminino do singular</li>
+                <li>inscrição - nome comum abstrato</li>
+                <li>De - preposição</li>
+                <li>Anos - nome comum abstrato</li>
+                <li>Resolve - forma do verbo resolver na 3ª pessoa do singular no presente do indicativo</li>
+                <li>o - artigo definido no masculino do singular</p>
+                <li>último - numeral ordinal</li>
+                <li>mistério - nome comum abstrato</p>
+                <li>da - contração de preposição 'de' + artigo definido 'a'</li>
+                <li>devastação - nome comum abstrato</li>
+                <li>de - preposição</li>
+                <li>Pompeia - nome próprio</li>
+            </ul>
+            <p>Ex: Ó mãe, posso sair?</p>
+            <p>Ó - interjeição de chamamento</p>
+            <p>mãe - nome comum concreto</p>
+            <p>posso - forma do verbo poder</p>
+            <p>sair - verbo</p>
+            <p>Ex: Gosto de cinema, mas prefiro a praia</p>
+            <p>Gosto - forma do verbo gostar</p>
+            <p>de - preposição</p>
+            <p>cinema - substantivo comum concreto</p>
+            <p>mas - conjunção coordenada adversativa</p>
+            <p>prefiro - forma do verbo preferir</p>
+            <p>a - artigo definido</p>
+            <p>praia - substantivo comum concreto</p>
+            <h2>Análise sintática</h2>
+            <p>É o estudo da função de cada termo de uma oraçã. Os ternos da oração são: sujeito, predicado, complementos, apósto, vocativo, predicativo do sujeito</p>
+        </section>
+
+        <section id="oad">
+            <h1>Os adjectivos</h1>
+
+            <p><strong>Os adjectivos:</strong> são palavras que se usam para caracterizar, isto é, atribuir qualidades aos nome. Trata-se portanto, de palavras que se ligam aos nomes e que concordam com eles em gênero (masculino e feminino) e número (singular e plural). Alguns adjectivos podem ainda variar em grau (normal, comparativo e superlativo).</p>
+
+            <p>Certos nomes podem funcionar como substantivos, ou como adjectivos.</p>
+
+            <p>Ex.: Um velho chinês fumava cachimbo.</p>
+
+            <ul>
+                <li>Um chinês velho fumava cachimbo, enquanto na primeira <span class="sublinhado">velho</span> é adjectivo e <span class="sublinhado">chinês</span> e substantivo, na segunda, <span class="sublinhado">chinês</span> é adjectivo e velho e substantivo.</li>
+                <li>O grupo substantivo/adjectivo pode inverter-se passando a adjectivo/substantivo e vice-versa, mudando os dois mutuamente de lugar, mas a tendência de colocar o adjectivo depois do substantivo. A norma, portanto, é esta: <strong>substantivo + adjectivo</strong></li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Flexõs do adjectivo</h2>
+            <h3>Flexão de número</h3>
+            <p><strong>Regra geral: Os adjectivos formam o plural como os substantivos</strong></p>
+            <p>Rosa vermelha/ Rosas vermelhas</p>
+            <p>Eéu azul/ Céus azuis</p>
+            <p>Mulher feliz / Mulheres felizes</p>
+            <p>Quando, intencionalmente, se adopta a ordem inversa, geralmente é porque se tem em mente outro sentido.</p>
+            <p>Ex.: Um homem grande</p>
+            <ul>
+                <li>Um grande homem &ne; Um homem grande</li>
+                <li>Um homem pobre &ne; Um pobre homem</li>
+            </ul>
+            <p>Nos adjectivos compostos apenas o segundo elemento recebe a marca de plural</p>
+            <p>Ex.: O cidadão luso-brasileiro</p>
+            <ul>
+                <li>Os cidadãos luso-brasileiros</li>
+                <li>A clínica médica-dentária</li>
+                <li>As clínicas médico-dentárias</li>
+            </ul>
+            <p>Exceptuam-se:</p>
+            <ol>
+                <li>Surdo-mudo &rarr; surdos-mudos (plural)</li>
+                <li>Os componentes referentes a cores são invariáveis, quando o segundo componente é um substantivo.</li>
+                <p>Ex.: Pérolas verde-esmeralda</p>
+                <ul>
+                    <li>Carros amarelo-esmeralda</li>
+                    <li>Canelas verde-azeitona</li>
+                </ul>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Flexão em gênero</h3>
+            <p>A maiorias dos adjectivos tem uma forma para o masculino e outra para o feminino são chamados <strong>adjectivos biformes</strong>.</p>
+            <p>Ex.: Homem alto/ Mulher alta</p>
+            <p>Mas há muitos que têm a mesma forma para o masculino e o feminino, estes são chamados de <strong>adjectivos uniformes</strong></p>
+            <p>Ex.: Homem inteligente</p>
+            <ul>
+                <li>Mulher inteligente</li>
+            </ul>
+            <p>A formação do adjectivo é semelhante a dos nomes.</p>
+            <p>Têm forma irregualar os adjectivos:</p>
+            <ul>
+                <li>bom/boa</li>
+                <li>mau/má</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Flexão em grau</h3>
+            <p>Grande parte dos adjectivos qualificativos variam em grau, podendo encontrar-se no grau <strong>normal, comparativo ou superlativo</strong></p>
+            <p>No grau normal indica-se simplesmente a característica que pretende atribuir ao nome.</p>
+            <p>Ex.: Matias sente-se feliz.</p>
+            <p>No <strong>grau comparativo</strong> estabelece-se uma comparação entre duas entidades</p>
+            <p>Comparativo de superioridade (mais + adjectivo + (do) que)</p>
+            <p>Ex.: O Matias sente-se <span class="sublinhado">mais feliz do que</span>...</p>
+            <p>Comparativo de igualdade (tão + adjectivo + como/quanto)</p>
+            <p>Ex.: O Matias sente-se <span class="sublinhado">tão feliz como/quanto</span> a Aicha.</p>
+            <p>No <strong>grau superlativo</strong>, indica-se o grau elevado ou a intensidade de uma qualidade:</p>
+            <ul>
+                <li>Relativamente a um conjunto de entidade a quem pode se atribuida a mesma característica:</li>
+                <ul>
+                    <li>Superlativo relativo de superioridade (o (a) mais + adjectivo + de);</li>
+                    <p>Ex.: O Matias sente-se o mais bonito de todos.</p>
+                    <li>Superlativo relativo de inferioridade (o (a) menos + adjectivo +de);</li>
+                    <p>Ex.: O Matias sente-se o menos feliz de todos.</p>
+                </ul>
+                <li>Em termos absolutos;</li>
+                <ul>
+                    <li>Superlativo absoluto analítico (muito/bastante/deveras/extremamente/etc + adjectivo)</li>
+                    <p>Ex.: O Matias sente-se <span class="sublinhado">bastante</span> feliz</p>
+                </ul>
+            </ul>
+            <p>Superlativo absoluto sintético (radical do advérbio + íssimo)</p>
+            <p>Ex.: O Matias sente-se felicíssimo</p>
+            <p>Formação do grau superlativo absoluto sintético</p>
+            <p><strong>Regra geral</strong> o grau superlativo absoluto sintético forma-se do seguinte modo:</p>
+            <ul>
+                <li>Se o adjectivo terminar em consoante <strong>acrescenta-se o sufixo</strong>.</li>
+                <p>Ex.: Um casaco vulgar.</p>
+                <ul>
+                    <li>Um casaco <strong>vulgaríssimo</strong></li>
+                </ul>
+                <li>Se o adjectivo terminar em bogal, <strong>a vogal final desaparece e acrescenta-se o sufixo <span class="sublinhado">íssimo</span></strong></li>
+                <p>Ex.: Um casaco belo.</p>
+                <ul>
+                    <li>Um casaco <strong>belíssimo</strong></li>
+                </ul>
+            </ul>
+            <p>Grau comparativo e superlativo dos adjectivos</p>
+            <p>bom, mau, grande, pequeno</p>
+            <p>Os adjectivos <strong>bom</strong>, <strong>mau</strong>, <strong>grande</strong> e <strong>pequeno</strong> apresentam as seguintes formas de comparativo e de superlativo.</p>
+            <!-- <table>
+                <tr>
+                    <th>Adjectivos</th>
+                    <th>Grau comparativo de superioridade</th>
+                    <th colspan="3">Grau superlativo</th>
+                </tr>
+                <tr>
+                    <td>bom</td>
+                    <td>melhor (do) que</td>
+                    <td>o melhor de</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td colspan="2">Absoluto sintético</td>
+                            </tr>
+                            <tr>
+                                <td>irregualar</td>
+                                <td>regular</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table> -->
+
+            <p>Superlativo em <span class="sublinhado">érrimo</span></p>
+
+            <p>integro - integérrimo</p>
+            <p>magro - macérrimo</p>
+            <p>pobre - paupérrimo</p>
+
+            <h3>Graus superlativos de outros adjectivos</h3>
+
+            <p>Alguns adjectivos apresentam formas de superlativo relacionadas com os <strong>étimos latinos</strong>. Parte deles adimitem duas formas superlativo.</p>
+
+            <h4>Superlativo em <span class="sublinhado">íssimo</span></h4>
+
+            <ul>
+                <li>
+                    <p>amargo - amaríssimo (ou amarguíssimo)</p>
+                </li>
+                <li>
+                    <p>amável - amabilíssimo</p>
+                </li>
+                <li>
+                    <p>amigo - amicíssimo (ou amiguíssimo)</p>
+                </li>
+                <li>
+                    <p>capaz - capacíssimo</p>
+                </li>
+                <li>
+                    <p>doce - dulcíssimo (ou docíssimo)</p>
+                </li>
+                <li>
+                    <p>sábio - sabientíssimo</p>
+                </li>
+                <li>
+                    <p>terrível - terribilíssimo</p>
+                </li>
+            </ul>
+        </section>
