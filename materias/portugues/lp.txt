@@ -53,16 +53,13 @@
         <section id="oad">
             <h1>Os adjectivos</h1>
 
-            <p><strong>Os adjectivos:</strong> são palavras que se usam para caracterizar, isto é, atribuir qualidades aos nome. Trata-se portanto, de palavras que se ligam aos nomes e que concordam com eles em gênero (masculino e feminino) e número (singular e plural). Alguns adjectivos podem ainda variar em grau (normal, comparativo e superlativo).</p>
+            
 
-            <p>Certos nomes podem funcionar como substantivos, ou como adjectivos.</p>
+           
 
-            <p>Ex.: Um velho chinês fumava cachimbo.</p>
+            
 
-            <ul>
-                <li>Um chinês velho fumava cachimbo, enquanto na primeira <span class="sublinhado">velho</span> é adjectivo e <span class="sublinhado">chinês</span> e substantivo, na segunda, <span class="sublinhado">chinês</span> é adjectivo e velho e substantivo.</li>
-                <li>O grupo substantivo/adjectivo pode inverter-se passando a adjectivo/substantivo e vice-versa, mudando os dois mutuamente de lugar, mas a tendência de colocar o adjectivo depois do substantivo. A norma, portanto, é esta: <strong>substantivo + adjectivo</strong></li>
-            </ul>
+            
         </section>
         
         <section>
@@ -76,7 +73,7 @@
             <p>Ex.: Um homem grande</p>
             <ul>
                 <li>Um grande homem &ne; Um homem grande</li>
-                <li>Um homem pobre &ne; Um pobre homem</li>
+                <li></li>
             </ul>
             <p>Nos adjectivos compostos apenas o segundo elemento recebe a marca de plural</p>
             <p>Ex.: O cidadão luso-brasileiro</p>
