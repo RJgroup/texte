@@ -175,6 +175,9 @@ div.contactos>ul{
     list-style: none;
     display: flex;
 }
+div.youtube{
+    flex-direction: column;
+}
 div.contactos>ul>li{
     background-color:var(--cor2_2);
     border-radius: 5px;
@@ -185,6 +188,9 @@ div.contactos>ul>li{
     position: relative;
     transition: .5s;
 
+}
+div.youtube>ul>li{
+    width: 100%;
 }
 div.contactos>ul>li:hover{
     background-color: var(--cor2);
