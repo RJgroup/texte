@@ -300,3 +300,21 @@ footer{
     font-size: 1.3em;
     text-align: center;
 }
+.obs{
+    background-color: var(--cor2);
+    padding: 3px;
+    border: 3px solid var(--cor1_3);
+    position: relative;
+}
+.obs::before{
+    content: 'OBS:';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 0;
+    left: 30px;
+    background-color: var(--cor1_2);
+    border: 3px solid var(--cor1_3);
+    padding: 3px;
+    border-radius: 5px;
+
+}
