@@ -138,6 +138,10 @@ button.botao:active{
     padding: 10px;
     box-shadow: var(--shadow);
     border-radius: 0px 0px 5px 5px;
+    margin:auto !important;
+}
+.temas>li{
+    transition: .5s;
 }
 .temas>li>ul{
     list-style: none;
@@ -266,3 +270,33 @@ button.renato{
         transform: translateX(0);
     }
 } 
+.content-book{
+    display: none;
+    transition: .5s;
+}
+
+.hematose{
+    display: inline-block;
+    width: 30%;
+    margin-right: 20px;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+.cfp{
+    border: 2px dashed #70e3fdc4;
+    margin-bottom: 10px;
+}
+h4{
+    border: 1px solid black;
+    padding-left: 5px;
+    background-color: #70e3fdc4;;
+}
+.tin>tr>td{
+    border: none;
+}
+footer{
+    background-color: #008000b6;
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+}
